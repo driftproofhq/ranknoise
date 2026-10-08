@@ -1,0 +1,38 @@
+{
+  "tested_at": "2026-10-08T07:05:04.731Z",
+  "browser": "Headless installed Chrome; CDP javascript navigation (not a manual bookmark click)",
+  "results": [
+    {
+      "url": "https://aider.chat/docs/leaderboards/",
+      "status": 200,
+      "csp": null,
+      "overlay": 1,
+      "dialog": "",
+      "errors": []
+    },
+    {
+      "url": "https://www.swebench.com/",
+      "status": 200,
+      "csp": null,
+      "overlay": 1,
+      "dialog": "",
+      "errors": []
+    },
+    {
+      "url": "https://www.tbench.ai/",
+      "status": 200,
+      "csp": null,
+      "overlay": 1,
+      "dialog": "",
+      "errors": []
+    },
+    {
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+      "status": 200,
+      "csp": null,
+      "overlay": 1,
+      "dialog": "",
+      "errors": []
+    }
+  ]
+}

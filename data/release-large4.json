@@ -1,0 +1,199 @@
+{
+  "id": "release-large4",
+  "title": "Mistral Large 4 · launch post",
+  "kind": "launch",
+  "source_url": "https://mistral.ai/news/mistral-large-4/",
+  "snapshot_date": "2026-10-07T13:25:46.088926+00:00",
+  "archived_html_sha256": "4e090b41c3e8faa3e4eb1f6f4181c0a1ca89fadfc930f36366f41accd133f85f",
+  "archive_source_id": "release_large4",
+  "sections": [
+    {
+      "benchmark": "Terminal-Bench 4.0",
+      "N": 66,
+      "rows": [
+        {
+          "model": "GLM-5.3",
+          "score": 40.0,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0157"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 1
+        },
+        {
+          "model": "Mistral Large 4 Preview",
+          "score": 28.000000000000004,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0154",
+            "C0155",
+            "C0156",
+            "C0157"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 2
+        },
+        {
+          "model": "Kimi K3",
+          "score": 21.0,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0156"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 3
+        },
+        {
+          "model": "Qwen3.8 Max",
+          "score": 17.0,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0155"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 4
+        },
+        {
+          "model": "DeepSeek V4 Pro 0813",
+          "score": 10.0,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0154"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "benchmark": "DeepSWE v1.1",
+      "N": 113,
+      "rows": [
+        {
+          "model": "Kimi K3 w/ Kimi Code CLI",
+          "score": 68.0,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0162"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 1
+        },
+        {
+          "model": "Mistral Large 4 Preview",
+          "score": 62.0,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0158",
+            "C0159",
+            "C0160",
+            "C0161",
+            "C0162"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed). C0158: Beam’s 44 is self-reported; the other bars are Artificial Analysis runs. The frozen separated verdict compares two kinds of score.",
+          "rank": 2
+        },
+        {
+          "model": "GLM-5.3 w/ Opencode",
+          "score": 61.0,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0161"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 3
+        },
+        {
+          "model": "DeepSeek-V4-Pro-0813 w/ Codex",
+          "score": 56.99999999999999,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0160"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 4
+        },
+        {
+          "model": "Qwen3.8 Max w/ Claude Code",
+          "score": 51.0,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0159"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed).",
+          "rank": 5
+        },
+        {
+          "model": "Beam (self-reported)",
+          "score": 44.0,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0158"
+          ],
+          "notes": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed). C0158: Beam’s 44 is self-reported; the other bars are Artificial Analysis runs. The frozen separated verdict compares two kinds of score.",
+          "rank": 6
+        }
+      ]
+    }
+  ],
+  "note": "Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed). C0158: Beam’s 44 is self-reported; the other bars are Artificial Analysis runs. The frozen separated verdict compares two kinds of score.",
+  "numeric_chart_sources": [
+    {
+      "source_id": "release_large4_terminal",
+      "url": "https://mistral.ai/_astro/code-benchmarks---terminal-bench-4%201-v3_Z2iGo8O.webp?dpl=6ac6443a4bc23d0008e349f7",
+      "sha256": "c3201abcd5c42890988e41c33719804fe09ff7ffe90bd0c71553e964a1f4d340",
+      "retrieved_at": "2026-10-07T13:39:16.867406+00:00"
+    },
+    {
+      "source_id": "release_large4_deep",
+      "url": "https://mistral.ai/_astro/artificial-analysis---deepswe-1.1%201-alt_Z28T39q.webp?dpl=6ac6443a4bc23d0008e349f7",
+      "sha256": "df82a5aa879ff37b505c514b9b99d73580b194af137fabe772aef827c679d2f0",
+      "retrieved_at": "2026-10-07T18:27:38.550267+00:00"
+    }
+  ]
+}

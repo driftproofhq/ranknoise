@@ -1,0 +1,161 @@
+{
+  "id": "swe-bench-pro-v2-full",
+  "title": "SWE-bench Pro V2 Full",
+  "kind": "leaderboard",
+  "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+  "snapshot_date": "2026-10-07T13:27:51.073520+00:00",
+  "archived_html_sha256": "34b04d330caf59141bed8cc365b9e6a48221edd42f3acf25db93e5a7f131c098",
+  "archive_source_id": "swe_pro",
+  "sections": [
+    {
+      "benchmark": "SWE-bench Pro V2 Full",
+      "N": 642,
+      "rows": [
+        {
+          "rank": 1,
+          "model": "Opus 5 (Claude Code) xhigh",
+          "score": 99.4,
+          "N": 642,
+          "configuration_id": "1",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 2,
+          "model": "Fable 5.1 (Claude Code) high",
+          "score": 99.1,
+          "N": 642,
+          "configuration_id": "2",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 3,
+          "model": "Kimi-K3 (mini-swe-agent) max",
+          "score": 97.7,
+          "N": 642,
+          "configuration_id": "3",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 4,
+          "model": "GPT-6-Astra (Codex) high",
+          "score": 96.9,
+          "N": 642,
+          "configuration_id": "4",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 5,
+          "model": "GPT-6.1-Sol (mini-swe-agent) xhigh",
+          "score": 96.11,
+          "N": 642,
+          "configuration_id": "5",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 6,
+          "model": "GLM-5.3 (mini-swe-agent) max",
+          "score": 95.6,
+          "N": 642,
+          "configuration_id": "6",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 7,
+          "model": "GPT-5.6-sol (Codex) xhigh",
+          "score": 95.5,
+          "N": 642,
+          "configuration_id": "7",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 8,
+          "model": "Gemini 3.8 Flash (mini-swe-agent) high",
+          "score": 94.86,
+          "N": 642,
+          "configuration_id": "8",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 9,
+          "model": "Sonnet 5 (Claude Code) xhigh",
+          "score": 93.15,
+          "N": 642,
+          "configuration_id": "9",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 10,
+          "model": "GPT-5.6-Terra (Codex) xhigh",
+          "score": 92.37,
+          "N": 642,
+          "configuration_id": "10",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        },
+        {
+          "rank": 11,
+          "model": "Inkling (mini-swe-agent) xhigh",
+          "score": 89.88,
+          "N": 642,
+          "configuration_id": "11",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "wilson",
+          "interval": null,
+          "question_count_allowed": false,
+          "notes": "Rounded published score; exact repeated-run scores not available in this snapshot. Source ± is not defined sufficiently to use as a repeated-run 95% CI."
+        }
+      ]
+    }
+  ],
+  "note": ""
+}

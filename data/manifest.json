@@ -1,0 +1,107 @@
+[
+  {
+    "id": "aider-polyglot",
+    "file": "aider-polyglot.json",
+    "source_url": "https://aider.chat/docs/leaderboards/",
+    "snapshot_date": "2026-10-07T13:35:08.791863+00:00",
+    "archived_html_sha256": "cea6cab3ac65e4d41cce072fcac5540497d757b3a6f72d997b7c3607b44c470e"
+  },
+  {
+    "id": "swe-bench-multilingual",
+    "file": "swe-bench-multilingual.json",
+    "source_url": "https://www.swebench.com/",
+    "snapshot_date": "2026-10-07T13:23:28.465828+00:00",
+    "archived_html_sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a"
+  },
+  {
+    "id": "swe-bench-full",
+    "file": "swe-bench-full.json",
+    "source_url": "https://www.swebench.com/",
+    "snapshot_date": "2026-10-07T13:23:28.465828+00:00",
+    "archived_html_sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a"
+  },
+  {
+    "id": "swe-bench-verified-bash-only",
+    "file": "swe-bench-verified-bash-only.json",
+    "source_url": "https://www.swebench.com/",
+    "snapshot_date": "2026-10-07T13:23:28.465828+00:00",
+    "archived_html_sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a"
+  },
+  {
+    "id": "swe-bench-verified-all-agents",
+    "file": "swe-bench-verified-all-agents.json",
+    "source_url": "https://www.swebench.com/",
+    "snapshot_date": "2026-10-07T13:23:28.465828+00:00",
+    "archived_html_sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a"
+  },
+  {
+    "id": "swe-bench-lite",
+    "file": "swe-bench-lite.json",
+    "source_url": "https://www.swebench.com/",
+    "snapshot_date": "2026-10-07T13:23:28.465828+00:00",
+    "archived_html_sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a"
+  },
+  {
+    "id": "swe-bench-multimodal",
+    "file": "swe-bench-multimodal.json",
+    "source_url": "https://www.swebench.com/",
+    "snapshot_date": "2026-10-07T13:23:28.465828+00:00",
+    "archived_html_sha256": "5d031921be2267f0d210fde3c654d56e9be7fc5ee45b3bab3b9f5888cce73d5a"
+  },
+  {
+    "id": "terminal-bench-4-0",
+    "file": "terminal-bench-4-0.json",
+    "source_url": "https://www.tbench.ai/",
+    "snapshot_date": "2026-10-07T13:23:28.591580+00:00",
+    "archived_html_sha256": "9949ebeacac5ad43e387ce348a7f7df9f9585522896864eefe1c33e2995df8fb"
+  },
+  {
+    "id": "swe-bench-pro-v2-full",
+    "file": "swe-bench-pro-v2-full.json",
+    "source_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+    "snapshot_date": "2026-10-07T13:27:51.073520+00:00",
+    "archived_html_sha256": "34b04d330caf59141bed8cc365b9e6a48221edd42f3acf25db93e5a7f131c098"
+  },
+  {
+    "id": "release-opus55",
+    "file": "release-opus55.json",
+    "source_url": "https://www.anthropic.com/claude-opus-5-5",
+    "snapshot_date": "2026-10-07T13:24:42.400921+00:00",
+    "archived_html_sha256": "1aaf81b96dc97230925e931cb2c1725a2b800e142e20f0c6e282a98189895c87"
+  },
+  {
+    "id": "release-sol6",
+    "file": "release-sol6.json",
+    "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+    "snapshot_date": "2026-10-07T13:24:44.062446+00:00",
+    "archived_html_sha256": "1c969dbb27493998d03f3c4710e74a1aaec8681b2234c70f55068c1e96485b31"
+  },
+  {
+    "id": "release-sonnet55",
+    "file": "release-sonnet55.json",
+    "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+    "snapshot_date": "2026-10-07T13:24:42.004671+00:00",
+    "archived_html_sha256": "66f6c034fd4ba3e381a2633281f5c2b2a693b5f5ff4f83042bce0c1f8c0471ea"
+  },
+  {
+    "id": "release-sol61",
+    "file": "release-sol61.json",
+    "source_url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "snapshot_date": "2026-10-07T13:24:41.427905+00:00",
+    "archived_html_sha256": "b1f6c8c86ca645132bc2946f5ef421bd3971c7517e1cc1f8f7344559de7de28c"
+  },
+  {
+    "id": "release-argon",
+    "file": "release-argon.json",
+    "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "snapshot_date": "2026-10-07T13:24:43.517970+00:00",
+    "archived_html_sha256": "690b84699965b25fc0ee94f95806834425c3f2041fd51d7a86d7ca0ba6141aa8"
+  },
+  {
+    "id": "release-large4",
+    "file": "release-large4.json",
+    "source_url": "https://mistral.ai/news/mistral-large-4/",
+    "snapshot_date": "2026-10-07T13:25:46.088926+00:00",
+    "archived_html_sha256": "4e090b41c3e8faa3e4eb1f6f4181c0a1ca89fadfc930f36366f41accd133f85f"
+  }
+]

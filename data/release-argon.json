@@ -1,0 +1,340 @@
+{
+  "id": "release-argon",
+  "title": "Gemini 4 Argon · launch post",
+  "kind": "launch",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "snapshot_date": "2026-10-07T13:24:43.517970+00:00",
+  "archived_html_sha256": "690b84699965b25fc0ee94f95806834425c3f2041fd51d7a86d7ca0ba6141aa8",
+  "archive_source_id": "release_argon",
+  "sections": [
+    {
+      "benchmark": "DeepSWE v1.1",
+      "N": 113,
+      "rows": [
+        {
+          "model": "Gemini 4 Argon",
+          "score": 77.9,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0139",
+            "C0140",
+            "C0141"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "score": 74.2,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0141"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 74.1,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0139"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "score": 67.4,
+          "N": 113,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0140"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "benchmark": "Terminal-Bench 4.0",
+      "N": 66,
+      "rows": [
+        {
+          "model": "Claude Opus 5.5",
+          "score": 66.4,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0144"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 58.20000000000001,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0142"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "score": 57.9,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0143"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "score": 57.4,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0142",
+            "C0143",
+            "C0144"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "benchmark": "Terminal-Bench-Science 0.1",
+      "N": 70,
+      "rows": [
+        {
+          "model": "GPT-6 Astra",
+          "score": 68.1,
+          "N": 70,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0145"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "score": 63.3,
+          "N": 70,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0147"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Gemini 4 Argon",
+          "score": 57.60000000000001,
+          "N": 70,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0145",
+            "C0146",
+            "C0147"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "score": 52.6,
+          "N": 70,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0146"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "benchmark": "RiemannBench",
+      "N": 25,
+      "rows": [
+        {
+          "model": "Gemini 4 Argon",
+          "score": 76.0,
+          "N": 25,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0148",
+            "C0149",
+            "C0150"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 72.0,
+          "N": 25,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0148"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "score": 69.6,
+          "N": 25,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0150"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "score": 65.6,
+          "N": 25,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0149"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "benchmark": "Chartography",
+      "N": 100,
+      "rows": [
+        {
+          "model": "Gemini 4 Argon",
+          "score": 71.6,
+          "N": 100,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0151",
+            "C0152",
+            "C0153"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 71.0,
+          "N": 100,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0151"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Claude Opus 5.5",
+          "score": 66.3,
+          "N": 100,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0153"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Claude Fable 5.1",
+          "score": 46.2,
+          "N": 100,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0152"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "note": "Ranked within each benchmark and protocol. Source intervals are sensitivities; missing intervals are explicit.",
+  "numeric_chart_sources": [
+    {
+      "source_id": "release_argon_table",
+      "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/gemini-4-argon_table_blog.gif",
+      "sha256": "481de187c66d4b4d2848046f57206ce3bf6bfb1883d01f8100236a21e4f8b392",
+      "retrieved_at": "2026-10-07T13:39:16.485982+00:00"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "release-sonnet55",
+  "title": "Claude Sonnet 5.5 · launch post",
+  "kind": "launch",
+  "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+  "snapshot_date": "2026-10-07T13:24:42.004671+00:00",
+  "archived_html_sha256": "66f6c034fd4ba3e381a2633281f5c2b2a693b5f5ff4f83042bce0c1f8c0471ea",
+  "archive_source_id": "release_sonnet55",
+  "sections": [
+    {
+      "benchmark": "Terminal-Bench 4.0",
+      "N": 66,
+      "rows": [
+        {
+          "model": "Sonnet 5.5",
+          "score": 70.6,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.6570009003864986,
+            0.7549990996135013
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0132",
+            "C0133"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Opus 5.5",
+          "score": 66.4,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.6130409364019587,
+            0.7149590635980414
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0133"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Sonnet 5",
+          "score": 10.3,
+          "N": 66,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0132"
+          ],
+          "notes": "",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "benchmark": "Humanity's Last Exam",
+      "N": 2500,
+      "rows": [
+        {
+          "model": "Opus 5.5",
+          "score": 67.7,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0135"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Sonnet 5.5",
+          "score": 64.5,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0134",
+            "C0135"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Sonnet 5",
+          "score": 54.89999999999999,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0134"
+          ],
+          "notes": "",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "benchmark": "Chartography",
+      "N": 100,
+      "rows": [
+        {
+          "model": "Opus 5.5",
+          "score": 64.4,
+          "N": 100,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.631,
+            0.657
+          ],
+          "interval_note": "graph-read source 95% CI; rounded outward, approximate",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0137"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Sonnet 5.5",
+          "score": 61.6,
+          "N": 100,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.588,
+            0.644
+          ],
+          "interval_note": "graph-read source 95% CI; rounded outward, approximate",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0136",
+            "C0137",
+            "C0138"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "GPT-6 Sol",
+          "score": 53.6,
+          "N": 100,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0138"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Sonnet 5",
+          "score": 15.6,
+          "N": 100,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.137,
+            0.175
+          ],
+          "interval_note": "graph-read source 95% CI; rounded outward, approximate",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0136"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    }
+  ],
+  "note": "Ranked within each benchmark and protocol. Source intervals are sensitivities; missing intervals are explicit."
+}

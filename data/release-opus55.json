@@ -1,0 +1,316 @@
+{
+  "id": "release-opus55",
+  "title": "Claude Opus 5.5 · launch post",
+  "kind": "launch",
+  "source_url": "https://www.anthropic.com/claude-opus-5-5",
+  "snapshot_date": "2026-10-07T13:24:42.400921+00:00",
+  "archived_html_sha256": "1aaf81b96dc97230925e931cb2c1725a2b800e142e20f0c6e282a98189895c87",
+  "archive_source_id": "release_opus55",
+  "sections": [
+    {
+      "benchmark": "Terminal-Bench 4.0",
+      "N": 66,
+      "rows": [
+        {
+          "model": "Opus 5.5",
+          "score": 66.4,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.6130409364019587,
+            0.7149590635980414
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0119",
+            "C0120",
+            "C0121",
+            "C0122"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 57.9,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.5493,
+            0.6086999999999999
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0121"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Fable 5.1",
+          "score": 55.8,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.5188007203091989,
+            0.597199279690801
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0119"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Opus 5",
+          "score": 52.300000000000004,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.48380072030919896,
+            0.5621992796908011
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0120"
+          ],
+          "notes": "",
+          "rank": 4
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 37.3,
+          "N": 66,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.3352,
+            0.4108
+          ],
+          "interval_note": "source SE normal 95% envelope / matching public CI; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0122"
+          ],
+          "notes": "",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "benchmark": "Humanity's Last Exam",
+      "N": 2500,
+      "rows": [
+        {
+          "model": "Opus 5.5",
+          "score": 67.7,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0123",
+            "C0124",
+            "C0125"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Fable 5.1",
+          "score": 65.6,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0123"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Opus 5",
+          "score": 63.6,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0124"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "GPT-6 Astra",
+          "score": 57.2,
+          "N": 2500,
+          "interval_type": "wilson",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0125"
+          ],
+          "notes": "",
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "benchmark": "Terminal-Bench-Science 0.1",
+      "N": 70,
+      "rows": [
+        {
+          "model": "GPT-6 Astra",
+          "score": 64.6,
+          "N": 70,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0128"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Opus 5.5",
+          "score": 58.70000000000001,
+          "N": 70,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.4929217287420775,
+            0.6810782712579226
+          ],
+          "interval_note": "source clustered SE upper envelope; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0126",
+            "C0127",
+            "C0128",
+            "C0129"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Fable 5.1",
+          "score": 52.6,
+          "N": 70,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.43192172874207746,
+            0.6200782712579226
+          ],
+          "interval_note": "source clustered SE upper envelope; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0126"
+          ],
+          "notes": "",
+          "rank": 3
+        },
+        {
+          "model": "Opus 5",
+          "score": 28.999999999999996,
+          "N": 70,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.1959217287420774,
+            0.3840782712579226
+          ],
+          "interval_note": "source clustered SE upper envelope; sensitivity",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0127"
+          ],
+          "notes": "",
+          "rank": 4
+        },
+        {
+          "model": "GPT-5.6 Sol",
+          "score": 22.4,
+          "N": 70,
+          "interval_type": "unknown",
+          "interval": null,
+          "interval_note": "",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0129"
+          ],
+          "notes": "",
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "benchmark": "Chartography",
+      "N": 100,
+      "rows": [
+        {
+          "model": "Opus 5.5",
+          "score": 89.0,
+          "N": 100,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.871,
+            0.909
+          ],
+          "interval_note": "graph-read source 95% CI; rounded outward, approximate",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0130",
+            "C0131"
+          ],
+          "notes": "",
+          "rank": 1
+        },
+        {
+          "model": "Fable 5.1",
+          "score": 88.4,
+          "N": 100,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.86,
+            0.908
+          ],
+          "interval_note": "graph-read source 95% CI; rounded outward, approximate",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0130"
+          ],
+          "notes": "",
+          "rank": 2
+        },
+        {
+          "model": "Opus 5",
+          "score": 83.4,
+          "N": 100,
+          "interval_type": "source-envelope",
+          "interval": [
+            0.81,
+            0.8580000000000001
+          ],
+          "interval_note": "graph-read source 95% CI; rounded outward, approximate",
+          "question_count_allowed": false,
+          "comparison_ids": [
+            "C0131"
+          ],
+          "notes": "",
+          "rank": 3
+        }
+      ]
+    }
+  ],
+  "note": "Ranked within each benchmark and protocol. Source intervals are sensitivities; missing intervals are explicit."
+}

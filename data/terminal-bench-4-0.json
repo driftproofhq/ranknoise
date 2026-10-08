@@ -1,0 +1,258 @@
+{
+  "id": "terminal-bench-4-0",
+  "title": "Terminal-Bench 4.0",
+  "kind": "leaderboard",
+  "source_url": "https://www.tbench.ai/",
+  "snapshot_date": "2026-10-07T13:23:28.591580+00:00",
+  "archived_html_sha256": "9949ebeacac5ad43e387ce348a7f7df9f9585522896864eefe1c33e2995df8fb",
+  "archive_source_id": "terminal_page",
+  "sections": [
+    {
+      "benchmark": "Terminal-Bench 4.0",
+      "N": 66,
+      "rows": [
+        {
+          "rank": 1,
+          "model": "Opus 5.5 / Claude Code / max",
+          "score": 64.85,
+          "N": 66,
+          "configuration_id": "7b805dbb-e77a-4d0a-892e-165f922f786c",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.6174,
+            0.6796
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 2,
+          "model": "Sonnet 5.5 / Claude Code / max",
+          "score": 61.82,
+          "N": 66,
+          "configuration_id": "723c6609-fe18-46d9-a1a3-dd4b6b0e0d00",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5888,
+            0.6476
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 3,
+          "model": "GPT-6 Astra / Codex / max",
+          "score": 58.18,
+          "N": 66,
+          "configuration_id": "5c537be4-7fc3-449b-8bfc-ceb9061c2535",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5539,
+            0.6097
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 4,
+          "model": "GPT-6.1 Sol / Codex / max",
+          "score": 58.18,
+          "N": 66,
+          "configuration_id": "79aafc20-6776-4411-a5a5-0640562496d0",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5507,
+            0.6129
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 5,
+          "model": "Fable 5.1 / Claude Code / max",
+          "score": 57.879999999999995,
+          "N": 66,
+          "configuration_id": "c741608e-c94e-417d-b7a8-e67111a0c887",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5412,
+            0.6164
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 6,
+          "model": "GPT-6 Astra / Codex / xhigh",
+          "score": 57.879999999999995,
+          "N": 66,
+          "configuration_id": "16db8ad5-84aa-4588-b660-1ce68c0d45e2",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5516,
+            0.606
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 7,
+          "model": "GPT-6 Astra / Codex / high",
+          "score": 57.879999999999995,
+          "N": 66,
+          "configuration_id": "3475050c-bf5e-4261-a3f6-0af5350af13f",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5491,
+            0.6084999999999999
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 8,
+          "model": "Fable 5.1 / Claude Code / xhigh",
+          "score": 57.879999999999995,
+          "N": 66,
+          "configuration_id": "9e1c5e11-748f-4f2e-911a-070a396d5bf8",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5452,
+            0.6123999999999999
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 9,
+          "model": "Fable 5.1 / Claude Code / high",
+          "score": 54.55,
+          "N": 66,
+          "configuration_id": "4643b23c-53e8-47ae-a3bd-9abc900e9588",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5111,
+            0.5799
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 10,
+          "model": "GPT-6 Astra / Codex / medium",
+          "score": 54.24,
+          "N": 66,
+          "configuration_id": "f3c3d5a6-6424-4acb-bfcc-615c3f79f6dd",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5158,
+            0.569
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 11,
+          "model": "Fable 5.1 / Claude Code / medium",
+          "score": 53.94,
+          "N": 66,
+          "configuration_id": "83e6bf7e-aeb4-4116-9f30-ca8de96603fb",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5055,
+            0.5733
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 12,
+          "model": "Opus 5 / Claude Code / xhigh",
+          "score": 53.94,
+          "N": 66,
+          "configuration_id": "f7844abc-3109-4d5f-91ad-481df7b9fac2",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.5077,
+            0.5710999999999999
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 13,
+          "model": "Opus 5 / Claude Code / max",
+          "score": 51.82,
+          "N": 66,
+          "configuration_id": "d71ac3d0-da36-49cb-89d9-323136e77111",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.4843,
+            0.5521
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 14,
+          "model": "GPT-6 Astra / Codex / low",
+          "score": 50.61,
+          "N": 66,
+          "configuration_id": "b3ad58f3-b311-4d4d-875b-3158cf0309d6",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.47859999999999997,
+            0.5336
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        },
+        {
+          "rank": 15,
+          "model": "Opus 5 / Claude Code / high",
+          "score": 50.3,
+          "N": 66,
+          "configuration_id": "0b2908ee-3035-447c-9876-e68fecb3f413",
+          "protocol": "",
+          "outcomes": null,
+          "interval_type": "published",
+          "interval": [
+            0.4657,
+            0.5403
+          ],
+          "question_count_allowed": false,
+          "notes": "Official 95% CI; average of 5 attempts/task. Marginal nonoverlap sensitivity."
+        }
+      ]
+    }
+  ],
+  "note": "Official 95% marginal intervals over repeated task attempts. Entries retain saved order; published ranks may tie."
+}

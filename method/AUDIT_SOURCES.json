@@ -1,0 +1,79 @@
+[
+  {
+    "id": "aa_method",
+    "url": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking/",
+    "final_url": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking/",
+    "sha256": "ef2048eb63afd32c7d25b4f3a7186c9ef2495c58fe3c166bbbb54db294feb3a6",
+    "retrieved_at": "2026-10-08T06:49:35.383684+00:00"
+  },
+  {
+    "id": "deepswe_method",
+    "url": "https://deepswe.datacurve.ai/blog/deepswe",
+    "final_url": "https://deepswe.datacurve.ai/blog/deepswe",
+    "sha256": "48e117bd6689790dd112bfbe6cbcd44846ee748a9d783c1ee927ec5a0ac5f883",
+    "retrieved_at": "2026-10-08T06:49:35.463978+00:00"
+  },
+  {
+    "id": "chartography",
+    "url": "https://surgehq.ai/benchmarks/chartography",
+    "final_url": "https://surgehq.ai/benchmarks/chartography",
+    "sha256": "2c01a7ce097680ace4bf2533e351a9400e5ad90c5f3b36a3ffa3ab32812e2bba",
+    "retrieved_at": "2026-10-08T06:49:35.337968+00:00"
+  },
+  {
+    "id": "riemann",
+    "url": "https://surgehq.ai/benchmarks/riemann-bench",
+    "final_url": "https://surgehq.ai/benchmarks/riemann-bench",
+    "sha256": "e12d6c99baae052ed670b3c89de21bdb02fc276c05eceb58a51d1cabb47c4fef",
+    "retrieved_at": "2026-10-08T06:49:35.353018+00:00"
+  },
+  {
+    "id": "science",
+    "url": "https://www.terminal-bench-science.ai/",
+    "final_url": "https://www.terminal-bench-science.ai/",
+    "sha256": "865971d9075e95d8f996e949079800ff7b3c45214cc1707ae67da6c3e18ab9c0",
+    "retrieved_at": "2026-10-08T06:49:35.388590+00:00"
+  },
+  {
+    "id": "opus_card",
+    "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+    "final_url": "https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+    "sha256": "7311c9c6bbb16d012f1c12c7418b05949fcf7ae3e30d2c40f22050074b2a7378",
+    "retrieved_at": "2026-10-08T06:49:44.145533+00:00"
+  },
+  {
+    "id": "sonnet_card",
+    "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+    "final_url": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf",
+    "sha256": "89cfd6a6d3aa6148eaf23f4a53006950ee7746009f381237c62920c720725785",
+    "retrieved_at": "2026-10-08T06:49:43.555613+00:00"
+  },
+  {
+    "id": "aider",
+    "url": "https://aider.chat/docs/leaderboards/",
+    "final_url": "https://aider.chat/docs/leaderboards/",
+    "sha256": "cea6cab3ac65e4d41cce072fcac5540497d757b3a6f72d997b7c3607b44c470e",
+    "retrieved_at": "2026-10-08T06:49:37.055935+00:00"
+  },
+  {
+    "id": "swe",
+    "url": "https://www.swebench.com/",
+    "final_url": "https://www.swebench.com/",
+    "sha256": "d1ab4d291a7809d902749b6ecaccfc0f2461bf29e4b4874700d67d75cd9e96fd",
+    "retrieved_at": "2026-10-08T06:49:38.683935+00:00"
+  },
+  {
+    "id": "terminal",
+    "url": "https://www.tbench.ai/",
+    "final_url": "https://www.tbench.ai/",
+    "sha256": "1d4113aca47703ea9adf72969f76bde3c6b144f701f04762233fbce49f09e949",
+    "retrieved_at": "2026-10-08T06:49:35.906684+00:00"
+  },
+  {
+    "id": "pro",
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+    "final_url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?tab=full",
+    "sha256": "09e5b5d39e9f55dbe771ce625101384be94bf8983eefe3cde2c6708b107796b4",
+    "retrieved_at": "2026-10-08T06:49:36.493723+00:00"
+  }
+]
