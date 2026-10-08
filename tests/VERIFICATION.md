@@ -8,4 +8,6 @@
 - Live bookmarklet: overlay opened on all four hosts; no CSP blocking observed with the tested Chrome navigation mechanism.
 - Frozen METHOD.md whole-file SHA-256 matches METHOD.sha256. Original results.csv remains b7316a1784f639fac4d32a22d30bca517dd643742cbea773e4e0462c5a5c8be5.
 
-Pending: direct comparison against driftproof-source issue #39 (private GitHub access returned 404). Local fixtures were taken from unchanged R-9 results.csv and must not be represented as independently verified against that issue.
+The ten issue #39 CSV rows were verified directly in the signed-in browser; all 20 published fields match R-9 exactly. Minimum-gap thresholds and below-threshold flags are also tested. See FIXTURE_PROVENANCE.md.
+
+- Dynamic local bootstrap: JavaScript PCG64/multinomial implementation checked against all 197 original NumPy patterns, endpoints and McNemar probabilities within 1e-12, verdicts exact.

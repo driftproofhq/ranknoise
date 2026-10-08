@@ -1,6 +1,6 @@
 # Bookmarklet compatibility — 8 October 2026
 
-The self-contained URL is approximately 39 KB. No remote loader is used. It was tested with installed headless Chrome using CDP `Page.navigate` to its `javascript:` URL; this is not a manual bookmark click and does not establish compatibility with every browser/version.
+The self-contained URL is approximately 51 KB. No remote loader is used. It was tested with installed headless Chrome using CDP `Page.navigate` to its `javascript:` URL; this is not a manual bookmark click and does not establish compatibility with every browser/version.
 
 | Site | Supported views | Live result | CSP observed |
 |---|---|---|---|
@@ -13,4 +13,4 @@ The self-contained URL is approximately 39 KB. No remote loader is used. It was 
 
 Only the documented versions and paths are supported. Pro HARD and other Terminal-Bench versions fail closed. On SWE-bench, all six supported embedded views are shown, regardless of the tab currently displayed. No launch-post reader is provided.
 
-All nine readers also passed against hash-verified original archived HTML offline: 129 exact numeric/identifier rows, interval endpoints and available binary outcome maps. See `tests/live-browser-results.json` for timestamped live results. Valid new paired-outcome patterns that are absent from the frozen bootstrap cache show unavailable inference, not a guessed Wilson comparison; see the README.
+All nine readers also passed against hash-verified original archived HTML offline: 129 exact numeric/identifier rows, interval endpoints and available binary outcome maps. See `tests/live-browser-results.json` for timestamped live results. Valid new paired-outcome patterns are computed locally using the frozen PCG64 bootstrap; see the README.

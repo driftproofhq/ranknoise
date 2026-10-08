@@ -13,9 +13,9 @@ Method: **[piece URL — placeholder](#method-placeholder)**. `method/METHOD.md`
 3. Open a supported leaderboard and wait for its table. Click the bookmark.
 4. Click **Close RankNoise**, or click the bookmark again, to remove the overlay.
 
-The bookmarklet is self-contained (about 39 KB URL text); no loader or remote script is used. It reads page DOM and embedded table data, draws an isolated overlay, and sends nothing. Nine readers cover four hosts: Aider, six SWE-bench views, Terminal-Bench 4.0 and Scale Pro V2 Full. Different benchmark versions/tracks, unavailable page data and changed schemas fail with “can't read this page”. On SWE-bench it shows all six supported views from the page’s embedded data, independent of the visible tab.
+The bookmarklet is self-contained (about 51 KB URL text); no loader or remote script is used. It reads page DOM and embedded table data, draws an isolated overlay, and sends nothing. Nine readers cover four hosts: Aider, six SWE-bench views, Terminal-Bench 4.0 and Scale Pro V2 Full. Different benchmark versions/tracks, unavailable page data and changed schemas fail with “can't read this page”. On SWE-bench it shows all six supported views from the page’s embedded data, independent of the visible tab.
 
-For valid paired item data, the bundle contains frozen-seed bootstrap results keyed by the complete four-cell outcome counts for the saved configurations. These are sufficient statistics for that bootstrap. A live comparison with a new valid paired count pattern is explicitly unavailable until the cache is regenerated; it does not silently fall back to an independent test. This is a live-coverage limitation. `scripts/cache_pairs.py` regenerates the cache offline using NumPy PCG64 seed 20261007 and 100,000 draws.
+For valid paired item data, saved sufficient-statistic patterns use a verified cache. New patterns are calculated entirely in the browser using the frozen PCG64 seed, NumPy-compatible multinomial sampler, 100,000 bootstrap draws and exact McNemar rule. The JavaScript port reproduces all 197 saved patterns within 1e-12 with exact verdicts. NumPy’s license is included in `src/NUMPY_LICENSE.txt`.
 
 See `bookmarklet/COMPATIBILITY.md` and `tests/live-browser-results.json` for live test details and CSP limitations.
 
@@ -27,6 +27,7 @@ Run formula tests with Node.js 18+:
 
 ```sh
 node tests/formula.cjs
+node tests/paired.cjs
 ```
 
 Run the nine original-HTML reader tests with Playwright installed and Chrome available:
@@ -37,6 +38,6 @@ R9_ARCHIVE=/path/to/original/work/leaderboard-noise/raw node tests/readers.cjs
 
 Set `CHROME_PATH` if needed. The test verifies archived HTML SHA-256 values before comparing every extracted numeric/identifier row, interval and outcome map exactly. The original archive is intentionally external; a fresh clone alone cannot run these nine provenance tests. Offline tests do not call models.
 
-The ten fixture IDs requested from driftproof-source issue #39 are present as **R-9-derived fixtures**. All Wilson/Newcombe endpoints match within 1e-12, with exact verdicts; available paired fixtures also match. **Acceptance is pending a direct comparison with issue #39**, which this session’s GitHub access could not read. Do not claim the issue fixtures were verified until that check is completed.
+The ten requested fixtures were read directly from driftproof-source issue #39 and match unchanged R-9 results.csv in all 20 published fields. Tests check Wilson/Newcombe endpoints and minimum-gap thresholds to 1e-12, exact verdicts, and available paired results. See `tests/FIXTURE_PROVENANCE.md`.
 
 For maintainers, `python3 scripts/build.py` optionally repacks already-extracted local data into the ready-to-open page and bookmarklet. Users do not need to run it. The method link remains a placeholder. Maverick rewrites this draft before launch.
