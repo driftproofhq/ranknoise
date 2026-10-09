@@ -1,6 +1,6 @@
 # Score types — pre-publication note, 8 October 2026
 
-This is a dated audit and sensitivity check. METHOD.md, METHOD.sha256 and results.csv are unchanged. The original result columns remain reproducible, including the expressly working-binomial approximation for averages; they must not be presented as correct repeated-run intervals.
+This is a dated audit and sensitivity check. METHOD.md and METHOD.sha256 are unchanged, and so is every frozen column of results.csv; on 9 October 2026 two columns were appended to it, `audited_verdict` and `audit_basis`, copied from SCORE_TYPE_SENSITIVITY.csv. The original result columns remain reproducible, including the expressly working-binomial approximation for averages; they must not be presented as correct repeated-run intervals.
 
 Priority: valid paired/per-item evidence; matching published repeated-run interval; Wilson for interpretable binary item rates; otherwise **can’t calculate from published data**. Match evaluator, task version, harness, effort and score. A benchmark name alone is not a match. Never multiply N by attempts to create independent questions.
 
@@ -43,7 +43,7 @@ All 617 original comparisons are listed in SCORE_TYPE_SENSITIVITY.csv, including
 
 ## Mistral chart provenance
 
-Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed). C0158: Beam’s 44 is self-reported; the other bars are Artificial Analysis runs. The frozen separated verdict compares two kinds of score. The exact values stay frozen; COMPARISON_NOTES.json is the sidecar for C0154–C0162 because results.csv must not be edited. C0154 and C0158 become unavailable under the repeat-aware audit. Neither imports Terminal-Bench’s unrelated official-board error bars.
+Artificial Analysis results quoted in Mistral’s launch post, run privately before the test sets were public. All eleven chart numbers were checked against both charts on 8 October 2026 and match (user-confirmed). C0158: Beam’s 44 is self-reported; the other bars are Artificial Analysis runs. The frozen separated verdict compares two kinds of score. The exact values stay frozen; COMPARISON_NOTES.json is the sidecar for C0154–C0162 because results.csv's frozen columns are not edited. C0154 and C0158 become unavailable under the repeat-aware audit. Neither imports Terminal-Bench’s unrelated official-board error bars.
 
 ## Source evidence
 

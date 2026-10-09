@@ -10,7 +10,7 @@ It covers nine leaderboard snapshots and six frontier launch posts. Each entry g
 - `bookmarklet/`: the same checks on live leaderboards. Self-contained (about 51 KB of URL text), no loader or remote script; it reads the page DOM, draws an isolated overlay, and sends nothing.
 - `method/`: the frozen protocol. `METHOD.md` is unchanged since it was hashed (`METHOD.sha256`), and `method/SCORE_TYPES.md` is the dated pre-publication audit of score types, interval rules and limitations. Frozen results are not silently replaced; corrections arrive as dated files.
 - `data/`: one JSON file per card, with the model, score, sample size, source URL, snapshot timestamp and a hash of the archived source HTML. No third-party HTML or PDFs are committed.
-- `results.csv`: the per-comparison results behind the write-up, one row per quoted gap.
+- `results.csv`: the per-comparison results behind the write-up, one row per quoted gap. The last two columns, `audited_verdict` and `audit_basis`, carry the 8 October score-type audit (`method/SCORE_TYPES.md`); every other column is the frozen result.
 - `src/`, `tests/`, `scripts/`: the interval code, offline tests (Node.js, no network) and an optional build script that repacks local data into the page and bookmarklet.
 
 ## Install the bookmarklet
