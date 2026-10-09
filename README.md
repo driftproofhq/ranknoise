@@ -1,43 +1,43 @@
-DRAFT
+# RankNoise
 
-RankNoise shows nine leaderboard snapshots and six launch-post cards from the R-9 audit. It displays published scores, applicable uncertainty intervals, and whether each entry is distinguishable from the first entry in its benchmark table. Two launch posts have effort curves but no eligible headline table; their cards say so.
+Leaderboard scores come with sampling noise. RankNoise shows which published gaps are larger than that noise, using only the numbers each source itself published.
 
-Open `index.html` directly. It is self-contained HTML, CSS and JavaScript, with no framework, build requirement, analytics or network calls. Each card has an anchor. “No” means separation is not established. “No*” marks insufficient data, not a measured null result. Missing intervals are drawn as unfilled dots. Ranks are positions in the saved selection; source ties are retained in order. Scores from different benchmarks are not ranked together.
+It covers nine leaderboard snapshots and six frontier launch posts. Each entry gets a card with the published score, an uncertainty interval where one can be computed or was published, and a verdict on whether the entry is distinguishable from the first entry in its benchmark table. The write-up built on this data is at https://driftproofhq.com/leaderboard-noise/ and the method is credited to the Driftproof paper (https://driftproofhq.com/paper/).
 
-Method: **[piece URL — placeholder](#method-placeholder)**. `method/METHOD.md` is an unchanged copy of the frozen protocol, verified by `METHOD.sha256`. `method/SCORE_TYPES.md` is the dated pre-publication audit, including source-matched interval rules and limitations. Source-bar nonoverlap and reconstructed SE envelopes are sensitivity checks, not a joint 95% pairwise test. Frozen binomial results are not silently replaced.
+## What is in this repo
+
+- `index.html`: the static overlay page. Self-contained HTML, CSS and JavaScript, with no framework, build requirement, analytics or network calls. Open it directly.
+- `bookmarklet/`: the same checks on live leaderboards. Self-contained (about 51 KB of URL text), no loader or remote script; it reads the page DOM, draws an isolated overlay, and sends nothing.
+- `method/`: the frozen protocol. `METHOD.md` is unchanged since it was hashed (`METHOD.sha256`), and `method/SCORE_TYPES.md` is the dated pre-publication audit of score types, interval rules and limitations. Frozen results are not silently replaced; corrections arrive as dated files.
+- `data/`: one JSON file per card, with the model, score, sample size, source URL, snapshot timestamp and a hash of the archived source HTML. No third-party HTML or PDFs are committed.
+- `results.csv`: the per-comparison results behind the write-up, one row per quoted gap.
+- `src/`, `tests/`, `scripts/`: the interval code, offline tests (Node.js, no network) and an optional build script that repacks local data into the page and bookmarklet.
 
 ## Install the bookmarklet
 
 1. Open `bookmarklet/install.html` locally.
-2. Drag **RankNoise** to the browser’s bookmarks bar. Alternatively create a bookmark and paste the complete URL from `bookmarklet/bookmarklet.txt`, including `javascript:`.
-3. Open a supported leaderboard and wait for its table. Click the bookmark.
-4. Click **Close RankNoise**, or click the bookmark again, to remove the overlay.
+2. Drag RankNoise to the browser's bookmarks bar, or create a bookmark and paste the complete URL from `bookmarklet/bookmarklet.txt`, including `javascript:`.
+3. Open a supported leaderboard, wait for its table, and click the bookmark. Supported: Aider polyglot, the six SWE-bench views, Terminal-Bench 4.0 and SWE-bench Pro V2 Full.
+4. Click Close RankNoise, or click the bookmark again, to remove the overlay.
 
-The bookmarklet is self-contained (about 51 KB URL text); no loader or remote script is used. It reads page DOM and embedded table data, draws an isolated overlay, and sends nothing. Nine readers cover four hosts: Aider, six SWE-bench views, Terminal-Bench 4.0 and Scale Pro V2 Full. Different benchmark versions/tracks, unavailable page data and changed schemas fail with “can't read this page”. On SWE-bench it shows all six supported views from the page’s embedded data, independent of the visible tab.
+If a site has changed its page structure, the overlay says it can't read the page rather than guessing.
 
-For valid paired item data, saved sufficient-statistic patterns use a verified cache. New patterns are calculated entirely in the browser using the frozen PCG64 seed, NumPy-compatible multinomial sampler, 100,000 bootstrap draws and exact McNemar rule. The JavaScript port reproduces all 197 saved patterns within 1e-12 with exact verdicts. NumPy’s license is included in `src/NUMPY_LICENSE.txt`.
+## How to read a card
 
-See `bookmarklet/COMPATIBILITY.md` and `tests/live-browser-results.json` for live test details and CSP limitations.
+- "Separated" means the gap is larger than the applicable interval.
+- "No" means separation is not established by the published data. That is not a finding that two entries are equal; it means the data cannot tell them apart.
+- "No*" marks insufficient data, not a measured null result.
+- Missing intervals are drawn as unfilled dots.
+- Ranks are positions in the saved selection; source ties keep their order. Scores from different benchmarks are never ranked against each other.
 
-## Data and verification
+## Which interval gets used
 
-`data/` contains one JSON file per card: model, score, N, source URL, original UTC snapshot timestamp, and SHA-256 of archived source HTML. Available binary outcome maps contain identifiers and booleans only. Numeric chart-source provenance is retained separately. No third-party HTML or PDF is committed. Scores use percentage units; interval endpoints use fractions.
+In priority order: paired or per-item evidence where the source provides it; an interval the source itself published for repeated runs; a Wilson or Newcombe interval where the score is an interpretable binary rate over a known item count; otherwise the comparison is marked as not calculable from published data. Multiplying item counts by attempt counts to manufacture precision is prohibited. Source-bar nonoverlap and reconstructed SE envelopes are sensitivity checks, not a joint 95% pairwise test. The full rules are in `method/SCORE_TYPES.md`.
 
-Run formula tests with Node.js 18+:
+## Verifying
 
-```sh
-node tests/formula.cjs
-node tests/paired.cjs
-```
+- The offline tests run with Node.js and no network; the fixtures reproduce the saved results.
+- `shasum -a 256 -c method/METHOD.sha256` checks that the frozen method file is unchanged.
+- Every data file carries its source URL and the hash of the page as it was archived, so any card can be traced back and rechecked.
 
-Run the nine original-HTML reader tests with Playwright installed and Chrome available:
-
-```sh
-R9_ARCHIVE=/path/to/original/work/leaderboard-noise/raw node tests/readers.cjs
-```
-
-Set `CHROME_PATH` if needed. The test verifies archived HTML SHA-256 values before comparing every extracted numeric/identifier row, interval and outcome map exactly. The original archive is intentionally external; a fresh clone alone cannot run these nine provenance tests. Offline tests do not call models.
-
-The ten requested fixtures were read directly from driftproof-source issue #39 and match unchanged R-9 results.csv in all 20 published fields. Tests check Wilson/Newcombe endpoints and minimum-gap thresholds to 1e-12, exact verdicts, and available paired results. See `tests/FIXTURE_PROVENANCE.md`.
-
-For maintainers, `python3 scripts/build.py` optionally repacks already-extracted local data into the ready-to-open page and bookmarklet. Users do not need to run it. The method link remains a placeholder. Maverick rewrites this draft before launch.
+Built by Driftproof (https://driftproofhq.com). Issues and corrections welcome; a correction that changes a verdict gets a dated note rather than a silent edit.
